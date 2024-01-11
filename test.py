@@ -1,0 +1,10 @@
+def common_char():
+	str1=input("Enter First Sring : ")
+	str2=input("enter 2nd string : ")
+	s1=set(str1)
+	s2=set(str2)
+	lst=(s1 & s2)
+	print(lst)
+	print(s1)
+	print(s2)
+common_char()
